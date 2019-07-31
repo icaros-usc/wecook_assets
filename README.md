@@ -1,0 +1,1 @@
+# WeCook Assets

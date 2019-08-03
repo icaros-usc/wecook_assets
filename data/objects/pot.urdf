@@ -1,0 +1,14 @@
+<robot name="pot">
+    <link name="pot">
+        <visual>
+            <geometry>
+                <mesh filename="pot.stl" />
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="pot.stl"/>
+            </geometry>
+        </collision>
+    </link>
+</robot>

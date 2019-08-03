@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>wecook_assets</name>
+    <version>0.0.1</version>
+    <description>The wecook_assets package provides OpenRAVE-specific environments, meshes, articulated bodies, robots
+        and database files used by the WeCook project at the ICAROS lab, University of Southern California.
+    </description>
+    <url>https://github.com/icaros-usc/wecook_assets</url>
+    <license>BSD</license>
+    <maintainer email="hjzh578@gmail.com">Hejia Zhang</maintainer>
+    <buildtool_depend>catkin</buildtool_depend>
+</package>

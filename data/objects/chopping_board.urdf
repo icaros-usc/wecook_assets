@@ -1,0 +1,14 @@
+<robot name="chopping_board">
+    <link name="chopping_board">
+        <collision>
+            <geometry>
+                <mesh filename="chopping_board.stl" />
+            </geometry>
+        </collision>
+        <visual>
+            <geometry>
+                <mesh filename="chopping_board.stl" />
+            </geometry>
+        </visual>
+    </link>
+</robot>

@@ -4,7 +4,7 @@
     <collision>
       <origin xyz="0.0 0.0 0.025" />
       <geometry>
-        <box size="0.05 0.05 0.05" />
+        <box size="0.03 0.03 0.05" />
       </geometry>
     </collision>
     <visual>
@@ -13,7 +13,7 @@
         <color rgba="0.0 1. 0 1.0" />
       </material>
       <geometry>
-        <box size="0.05 0.05 0.05" />
+        <box size="0.03 0.03 0.05" />
       </geometry>
     </visual>
   </link>

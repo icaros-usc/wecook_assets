@@ -1,0 +1,14 @@
+<robot name="cooker">
+    <link name="cooker">
+        <collision>
+            <geometry>
+                <mesh filename="cooker.stl" />
+            </geometry>
+        </collision>
+        <visual>
+            <geometry>
+                <mesh filename="cooker.stl" />
+            </geometry>
+        </visual>
+    </link>
+</robot>

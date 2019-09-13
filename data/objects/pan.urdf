@@ -1,0 +1,14 @@
+<robot name="pan">
+    <link name="pan">
+        <visual>
+            <geometry>
+                <mesh filename="pan.stl" />
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="pan.stl"/>
+            </geometry>
+        </collision>
+    </link>
+</robot>

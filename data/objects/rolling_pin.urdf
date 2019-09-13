@@ -1,0 +1,14 @@
+<robot name="rolling_pin">
+    <link name="rolling_pin">
+        <visual>
+            <geometry>
+                <mesh filename="rolling_pin.stl" />
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="rolling_pin.stl"/>
+            </geometry>
+        </collision>
+    </link>
+</robot>

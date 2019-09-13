@@ -1,0 +1,14 @@
+<robot name="oil">
+    <link name="oil">
+        <visual>
+            <geometry>
+                <mesh filename="oil.stl" />
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="oil.stl"/>
+            </geometry>
+        </collision>
+    </link>
+</robot>

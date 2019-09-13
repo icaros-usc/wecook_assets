@@ -1,0 +1,14 @@
+<robot name="holder">
+  <link name="holder">
+    <visual>
+      <geometry>
+        <mesh filename="holder.stl" />
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="holder.stl" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

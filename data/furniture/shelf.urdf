@@ -1,0 +1,14 @@
+<robot name="shelf">
+    <link name="shelf">
+        <collision>
+            <geometry>
+                <mesh filename="shelf.stl" />
+            </geometry>
+        </collision>
+        <visual>
+            <geometry>
+                <mesh filename="shelf.stl" />
+            </geometry>
+        </visual>
+    </link>
+</robot>

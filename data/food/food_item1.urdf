@@ -1,19 +1,19 @@
 <?xml version="1.0" ?>
-<robot name="food_item">
-  <link name="food_item">
+<robot name="food_item1">
+  <link name="food_item1">
     <collision>
-      <origin xyz="0.0 0.0 0.025" />
+      <origin xyz="0.0 0.0 0.015" />
       <geometry>
-        <box size="0.03 0.03 0.05" />
+        <box size="0.03 0.03 0.03" />
       </geometry>
     </collision>
     <visual>
-      <origin xyz="0.0 0.0 0.025" />
+      <origin xyz="0.0 0.0 0.015" />
       <material name="c">
         <color rgba="0.0 1. 0 1.0" />
       </material>
       <geometry>
-        <box size="0.03 0.03 0.05" />
+        <box size="0.03 0.03 0.03" />
       </geometry>
     </visual>
   </link>

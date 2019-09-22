@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<robot name="food_item">
-  <link name="food_item">
+<robot name="food_item2">
+  <link name="food_item2">
     <collision>
       <origin xyz="0.0 0.0 0.025" />
       <geometry>

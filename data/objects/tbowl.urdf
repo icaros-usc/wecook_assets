@@ -1,0 +1,14 @@
+<robot name="tbowl">
+    <link name="tbowl">
+        <collision>
+            <geometry>
+                <mesh filename="tbowl.stl" />
+            </geometry>
+        </collision>
+        <visual>
+            <geometry>
+                <mesh filename="tbowl.stl" />
+            </geometry>
+        </visual>
+    </link>
+</robot>

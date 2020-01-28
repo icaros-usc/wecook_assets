@@ -1,0 +1,14 @@
+<robot name="soda_can">
+    <link name="soda_can">
+        <collision>
+            <geometry>
+                <mesh filename="soda_can.stl" />
+            </geometry>
+        </collision>
+        <visual>
+            <geometry>
+                <mesh filename="soda_can.stl" />
+            </geometry>
+        </visual>
+    </link>
+</robot>

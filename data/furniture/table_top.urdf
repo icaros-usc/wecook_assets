@@ -1,0 +1,23 @@
+<robot name="icaros_demo_table">
+    <link name="base_link">
+        <!-- NOTE: Collision geometry is simplified: just three boxes. -->
+        <!-- Tabletop Collision Geometry -->
+        <collision>
+            <origin xyz="0 0 0.9175"/>
+            <geometry>
+                <box size="1.21 0.60 0.035"/>
+            </geometry>
+        </collision>
+        <!-- NOTE: Visual Geometry is more detailed than collision geometry. -->
+        <!-- Tabletop Visual Geometry -->
+        <visual>
+            <origin xyz="0 0 0.9175"/>
+            <geometry>
+                <box size="1.21 0.60 0.035"/>
+            </geometry>
+            <material name="gray">
+                <color rgba="0.8 0.8 0.8 1.0"/>
+            </material>
+        </visual>
+    </link>
+</robot>

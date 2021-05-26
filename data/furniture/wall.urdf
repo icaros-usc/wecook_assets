@@ -1,0 +1,19 @@
+<robot name="wall">
+  <link name="wall">
+    <collision>
+      <origin xyz="0 0 1.0" />
+      <geometry>
+        <box size="0.2 3.0 2.0" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 1.0" />
+      <material name="wall">
+        <color rgba="0.93 0.90 0.82 1.0" />
+      </material>
+      <geometry>
+        <box size="0.2 3.0 2.0" />
+      </geometry>
+    </visual>
+  </link>
+</robot>

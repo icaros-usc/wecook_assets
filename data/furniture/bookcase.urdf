@@ -1,0 +1,224 @@
+<robot name="cutting_board">
+  <link name="cutting_board">
+    <!-- Shelf 1 -->
+    <collision>
+      <origin xyz="0 0 0.12"/>
+      <geometry>
+        <box size="0.24 0.58 0.02"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.12"/>
+      <material name="brown">
+        <color rgba="0.3 0.23 0.17 1.0"/>
+      </material>
+      <geometry>
+        <box size="0.24 0.58 0.02"/>
+      </geometry>
+    </visual>
+
+    <!-- Shelf 2 -->
+    <collision>
+      <origin xyz="0 0 0.47"/>
+      <geometry>
+        <box size="0.24 0.58 0.02"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.47"/>
+      <material name="brown">
+        <color rgba="0.3 0.23 0.17 1.0"/>
+      </material>
+      <geometry>
+        <box size="0.24 0.58 0.02"/>
+      </geometry>
+    </visual>
+
+    <!-- Shelf 3 -->
+    <collision>
+      <origin xyz="0 0 0.82"/>
+      <geometry>
+        <box size="0.24 0.58 0.02"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.82"/>
+      <material name="brown">
+        <color rgba="0.3 0.23 0.17 1.0"/>
+      </material>
+      <geometry>
+        <box size="0.24 0.58 0.02"/>
+      </geometry>
+    </visual>
+
+    <!-- Shelf 4 -->
+    <collision>
+      <origin xyz="0 0 1.17"/>
+      <geometry>
+        <box size="0.24 0.58 0.02"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 1.17"/>
+      <material name="brown">
+        <color rgba="0.3 0.23 0.17 1.0"/>
+      </material>
+      <geometry>
+        <box size="0.24 0.58 0.02"/>
+      </geometry>
+    </visual>
+
+    <!-- Shelf 5 -->
+    <collision>
+      <origin xyz="0 0 1.52"/>
+      <geometry>
+        <box size="0.24 0.58 0.02"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 1.52"/>
+      <material name="brown">
+        <color rgba="0.3 0.23 0.17 1.0"/>
+      </material>
+      <geometry>
+        <box size="0.24 0.58 0.02"/>
+      </geometry>
+    </visual>
+
+    <!-- Board 1 -->
+    <collision>
+      <origin xyz="-0.09 0.3 0.825"/>
+      <geometry>
+        <box size="0.06 0.02 1.65"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.09 0.3 0.825"/>
+      <material name="brown">
+        <color rgba="0.3 0.23 0.17 1.0"/>
+      </material>
+      <geometry>
+        <box size="0.06 0.02 1.65"/>
+      </geometry>
+    </visual>
+
+    <!-- Board 2 -->
+    <collision>
+      <origin xyz="0.09 0.3 0.825"/>
+      <geometry>
+        <box size="0.06 0.02 1.65"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.09 0.3 0.825"/>
+      <material name="brown">
+        <color rgba="0.3 0.23 0.17 1.0"/>
+      </material>
+      <geometry>
+        <box size="0.06 0.02 1.65"/>
+      </geometry>
+    </visual>
+
+    <!-- Board 3 -->
+    <collision>
+      <origin xyz="0.09 -0.3 0.825"/>
+      <geometry>
+        <box size="0.06 0.02 1.65"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.09 -0.3 0.825"/>
+      <material name="brown">
+        <color rgba="0.3 0.23 0.17 1.0"/>
+      </material>
+      <geometry>
+        <box size="0.06 0.02 1.65"/>
+      </geometry>
+    </visual>
+
+    <!-- Board 4 -->
+    <collision>
+      <origin xyz="-0.09 -0.3 0.825"/>
+      <geometry>
+        <box size="0.06 0.02 1.65"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.09 -0.3 0.825"/>
+      <material name="brown">
+        <color rgba="0.3 0.23 0.17 1.0"/>
+      </material>
+      <geometry>
+        <box size="0.06 0.02 1.65"/>
+      </geometry>
+    </visual>
+
+    <!-- Connector 1 -->
+    <collision>
+      <origin xyz="0 -0.3 0.03"/>
+      <geometry>
+        <box size="0.12 0.02 0.06"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 -0.3 0.03"/>
+      <material name="brown">
+        <color rgba="0.3 0.23 0.17 1.0"/>
+      </material>
+      <geometry>
+        <box size="0.12 0.02 0.06"/>
+      </geometry>
+    </visual>
+
+    <!-- Connector 3 -->
+    <collision>
+      <origin xyz="0 0.3 0.03"/>
+      <geometry>
+        <box size="0.12 0.02 0.06"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0.3 0.03"/>
+      <material name="brown">
+        <color rgba="0.3 0.23 0.17 1.0"/>
+      </material>
+      <geometry>
+        <box size="0.12 0.02 0.06"/>
+      </geometry>
+    </visual>
+
+    <!-- Connector 2 -->
+    <collision>
+      <origin xyz="0 -0.3 1.62"/>
+      <geometry>
+        <box size="0.12 0.02 0.06"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 -0.3 1.62"/>
+      <material name="brown">
+        <color rgba="0.3 0.23 0.17 1.0"/>
+      </material>
+      <geometry>
+        <box size="0.12 0.02 0.06"/>
+      </geometry>
+    </visual>
+
+    <!-- Connector 4 -->
+    <collision>
+      <origin xyz="0 0.3 1.62"/>
+      <geometry>
+        <box size="0.12 0.02 0.06"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0.3 1.62"/>
+      <material name="brown">
+        <color rgba="0.3 0.23 0.17 1.0"/>
+      </material>
+      <geometry>
+        <box size="0.12 0.02 0.06"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

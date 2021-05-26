@@ -1,0 +1,70 @@
+<robot name="cutting_board">
+  <link name="cutting_board">
+    <!-- Board -->
+    <collision>
+      <origin xyz="0 0.015 0.0035"/>
+      <geometry>
+        <box size=".27 0.31 0.007"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0.015 0.0035"/>
+      <material name="white">
+        <color rgba="0.9 0.9 0.9 1.0"/>
+      </material>
+      <geometry>
+        <box size="0.27 0.31 0.007"/>
+      </geometry>
+    </visual>
+
+    <!-- Handle -->
+    <collision>
+      <origin xyz="0 -0.165 0.0035"/>
+      <geometry>
+        <box size=".27 0.02 0.007"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 -0.165 0.0035"/>
+      <material name="white">
+        <color rgba="0.9 0.9 0.9 1.0"/>
+      </material>
+      <geometry>
+        <box size="0.27 0.02 0.007"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <origin xyz="0.09 -0.145 0.0035"/>
+      <geometry>
+        <box size="0.09 0.02 0.007"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.09 -0.145 0.0035"/>
+      <material name="white">
+        <color rgba="0.9 0.9 0.9 1.0"/>
+      </material>
+      <geometry>
+        <box size="0.09 0.02 0.007"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <origin xyz="-0.09 -0.145 0.0035"/>
+      <geometry>
+        <box size="0.09 0.02 0.007"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.09 -0.145 0.0035"/>
+      <material name="white">
+        <color rgba="0.9 0.9 0.9 1.0"/>
+      </material>
+      <geometry>
+        <box size="0.09 0.02 0.007"/>
+      </geometry>
+    </visual>
+
+  </link>
+</robot>

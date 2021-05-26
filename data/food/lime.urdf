@@ -1,0 +1,19 @@
+<robot name="lime">
+  <link name="lime">
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.03 -0.03 0.005"/>
+      <geometry>
+        <mesh filename="lime.stl" scale="0.0005 0.0005 0.0005" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.03 -0.03 0.005"/>
+      <material name="lemon yellow">
+        <color rgba="0.65 0.60 0.10 1.0" />
+      </material>
+      <geometry>
+        <mesh filename="lime.dae" scale="0.0005 0.0005 0.0005" />
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -1,0 +1,19 @@
+<robot name="skillet">
+    <link name="skillet">
+    	<collision>
+    		<origin rpy="3.14 0 0" xyz="0 0 0" />
+			<geometry>
+				<mesh filename="skillet.stl" scale="0.25 0.25 0.25"/>
+			</geometry>
+	    </collision>
+       	<visual>
+       		<origin rpy="3.14 0 0" xyz="0 0 0" />
+       		<material name="black">
+        		<color rgba="0.1 0.1 0.1 1.0" />
+      		</material>
+			<geometry>
+				<mesh filename="skillet.stl" scale="0.25 0.25 0.25"/>
+			</geometry>
+	    </visual>
+	</link>
+</robot>

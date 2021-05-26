@@ -1,14 +1,18 @@
+<?xml version="1.0" ?>
 <robot name="plate">
-    <link name="plate">
-        <visual>
-            <geometry>
-                <mesh filename="plate.stl" />
-            </geometry>
-        </visual>
-        <collision>
-            <geometry>
-                <mesh filename="plate.stl"/>
-            </geometry>
-        </collision>
-    </link>
+  <link name="plate">
+    <collision>
+      <geometry>
+        <mesh filename="plate.stl" />
+      </geometry>
+    </collision>
+    <visual>
+      <material name="white">
+        <color rgba="0.9 0.9 0.9 1.0"/>
+      </material>
+      <geometry>
+        <mesh filename="plate.stl" />
+      </geometry>
+    </visual>
+  </link>
 </robot>

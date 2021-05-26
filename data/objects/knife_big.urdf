@@ -1,0 +1,14 @@
+<robot name="knife">
+    <link name="knife">
+        <visual>
+            <geometry>
+                <mesh filename="knife.stl" scale="1.5 1.5 1.5"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="knife.stl" scale="1.5 1.5 1.5"/>
+            </geometry>
+        </collision>
+    </link>
+</robot>

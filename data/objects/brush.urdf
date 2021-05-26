@@ -1,0 +1,14 @@
+<robot name="brush">
+  <link name="brush">
+    <collision>
+      <geometry>
+        <mesh filename="brush.stl" scale="0.009 0.009 0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <geometry>
+        <mesh filename="brush.stl" scale="0.009 0.009 0.009" />
+      </geometry>
+    </visual>
+  </link>
+</robot>

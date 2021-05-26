@@ -1,0 +1,106 @@
+<robot name="oil">
+  <link name="oil">
+
+    <!-- Bottom glass -->
+    <collision>
+      <origin xyz="0 0 0.003" />
+      <geometry>
+        <box size="0.05 0.05 0.006"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.003" />
+      <material name="glass">
+        <color rgba="0.68 0.98 0.68 0.38" />
+      </material>
+      <geometry>
+        <box size="0.05 0.05 0.006"/>
+      </geometry>
+    </visual>
+
+    <!-- Oil -->
+    <collision>
+      <origin xyz="0 0 0.066" />
+      <geometry>
+        <box size="0.05 0.05 0.12"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.066" />
+      <material name="oil">
+        <color rgba="0.78 0.78 0.38 0.58" />
+      </material>
+      <geometry>
+        <box size="0.05 0.05 0.12"/>
+      </geometry>
+    </visual>
+
+    <!-- Top glass -->
+    <collision>
+      <origin xyz="0 0 0.146" />
+      <geometry>
+        <box size="0.05 0.05 0.04"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.146" />
+      <material name="glass">
+        <color rgba="0.68 0.98 0.68 0.38"/>
+      </material>
+      <geometry>
+        <box size="0.05 0.05 0.04"/>
+      </geometry>
+    </visual>
+    
+    <!-- Glass neck -->
+    <collision>
+      <origin xyz="0 0 0.181" />
+      <geometry>
+        <cylinder radius="0.015" length="0.03" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.181" />
+      <material name="glass">
+        <color rgba="0.68 0.98 0.68 0.38"/>
+      </material>
+      <geometry>
+        <cylinder radius="0.015" length="0.03" />
+      </geometry>
+    </visual>    
+
+    <!-- Lid -->
+    <collision>
+      <origin xyz="0 0 0.206" />
+      <geometry>
+        <cylinder radius="0.015" length="0.02" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.206" />
+      <material name="black">
+        <color rgba="0.88 0.88 0.88 1.0" />
+      </material>
+      <geometry>
+        <cylinder radius="0.015" length="0.02" />
+      </geometry>
+    </visual>
+
+    <!-- Nozzle -->
+    <collision>
+      <origin xyz="0 0 0.236" />
+      <geometry>
+        <cylinder radius="0.003" length="0.04"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.236"/>
+      <material name="steel">
+        <color rgba="0.68 0.68 0.68 1.0" />
+      </material>
+      <geometry>
+        <cylinder radius="0.003" length="0.04"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

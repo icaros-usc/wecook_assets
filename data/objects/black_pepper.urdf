@@ -1,0 +1,72 @@
+<robot name="pepper_shaker">
+  <link name="pepper_shaker">
+
+    <!-- Bottom glass -->
+    <collision>
+      <origin xyz="0 0 0.003" />
+      <geometry>
+        <cylinder radius="0.0175" length="0.006" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.003" />
+      <material name="glass">
+        <color rgba="0.78 0.78 0.98 0.38" />
+      </material>
+      <geometry>
+        <cylinder radius="0.0175" length="0.006" />
+      </geometry>
+    </visual>
+
+    <!-- Pepper-->
+    <collision>
+      <origin xyz="0 0 0.036" />
+      <geometry>
+        <cylinder radius="0.0175" length="0.06" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.036" />
+      <material name="pepper">
+        <color rgba="0.15 0.15 0.1 0.98" />
+      </material>
+      <geometry>
+        <cylinder radius="0.0175" length="0.06" />
+      </geometry>
+    </visual>
+
+    <!-- Top glass -->
+    <collision>
+      <origin xyz="0 0 0.071" />
+      <geometry>
+        <cylinder radius="0.0175" length="0.01" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.071" />
+      <material name="glass">
+        <color rgba="0.78 0.78 0.98 0.38" />
+      </material>
+      <geometry>
+        <cylinder radius="0.0175" length="0.01" />
+      </geometry>
+    </visual>
+
+    <!-- Lid -->
+    <collision>
+      <origin xyz="0 0 0.086" />
+      <geometry>
+        <cylinder radius="0.0175" length="0.02" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.086" />
+      <material name="black">
+        <color rgba="0.1 0.1 0.1 1.0" />
+      </material>
+      <geometry>
+        <cylinder radius="0.0175" length="0.02" />
+      </geometry>
+    </visual>
+  </link>
+</robot>

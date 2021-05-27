@@ -1,0 +1,19 @@
+<robot name="ham_slice">
+  <link name="ham_slice">
+    <collision>
+      <origin xyz="0.0 0.0 0.0015"/>
+      <geometry>
+        <cylinder radius="0.035" length="0.003"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.0 0.0 0.0015" />
+      <material name="pink meat">
+        <color rgba="0.94 0.82 0.84 1.0" />
+      </material>
+      <geometry>
+        <cylinder radius="0.035" length="0.003"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

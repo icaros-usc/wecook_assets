@@ -1,0 +1,19 @@
+<robot name="bread_slice">
+  <link name="bread_slice">
+    <collision>
+      <origin rpy="0 0 0" xyz="0. 0. 0.023"/>
+      <geometry>
+        <mesh filename="bread_slice.stl" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin rpy="0 0 0" xyz="0. 0. 0.023"/>
+      <material name="dough">
+        <color rgba="0.78 0.68 0.58 1.0"/>
+      </material>
+      <geometry>
+        <mesh filename="bread_slice.stl" scale="1. 1. 1." />
+      </geometry>
+    </visual>
+  </link>
+</robot>

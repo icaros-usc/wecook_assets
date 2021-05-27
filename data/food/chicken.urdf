@@ -1,7 +1,7 @@
 <robot name="cooking_pot">
     <link name="body">
        	<visual>
-       	    <material name="pink skin">
+       	    <material name="pink meat">
         		<color rgba="0.88 0.82 0.84 1.0" />
       		</material>
 			<geometry>

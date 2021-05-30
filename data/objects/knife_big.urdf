@@ -1,0 +1,16 @@
+<robot name="knife">
+    <link name="knife">
+        <visual>
+            <origin rpy="0 0 0" xyz="-0.03 0. 0.005"/>
+            <geometry>
+                <mesh filename="knife.stl" scale="1.5 1.5 1.5"/>
+            </geometry>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="-0.03 0. 0.005"/>
+            <geometry>
+                <mesh filename="knife.stl" scale="1.5 1.5 1.5"/>
+            </geometry>
+        </collision>
+    </link>
+</robot>

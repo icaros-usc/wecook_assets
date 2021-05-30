@@ -1,0 +1,242 @@
+<robot name="sink_counter">
+  <link name="sink_counter">
+    <!-- Front base -->
+    <collision>
+      <origin xyz="-0.25 0 0.35" />
+      <geometry>
+        <box size="0.15 1.3 0.7" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.25 0 0.35" />
+      <material name="wood">
+        <color rgba="0.78 0.68 0.58 1.0" />
+      </material>
+      <geometry>
+        <box size="0.15 1.3 0.7" />
+      </geometry>
+    </visual>
+
+    <!-- Back base -->
+    <collision>
+      <origin xyz="0.25 0 0.35" />
+      <geometry>
+        <box size="0.15 1.3 0.7" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.25 0 0.35" />
+      <material name="wood">
+        <color rgba="0.78 0.68 0.58 1.0" />
+      </material>
+      <geometry>
+        <box size="0.15 1.3 0.7" />
+      </geometry>
+    </visual>
+
+    <!-- Left base -->
+    <collision>
+      <origin xyz="0 -0.5 0.35" />
+      <geometry>
+        <box size="0.4 0.3 0.7" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 -0.5 0.35" />
+      <material name="wood">
+        <color rgba="0.78 0.68 0.58 1.0" />
+      </material>
+      <geometry>
+        <box size="0.4 0.3 0.7" />
+      </geometry>
+    </visual>
+
+    <!-- Right base -->
+    <collision>
+      <origin xyz="0 0.5 0.35" />
+      <geometry>
+        <box size="0.4 0.3 0.7" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0.5 0.35" />
+      <material name="wood">
+        <color rgba="0.78 0.68 0.58 1.0" />
+      </material>
+      <geometry>
+        <box size="0.4 0.3 0.7" />
+      </geometry>
+    </visual>
+
+    <!-- Center base -->
+    <collision>
+      <origin xyz="0 0 0.25" />
+      <geometry>
+        <box size="0.4 0.7 0.5" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.25" />
+      <material name="wood">
+        <color rgba="0.78 0.68 0.58 1.0" />
+      </material>
+      <geometry>
+        <box size="0.4 0.7 0.5" />
+      </geometry>
+    </visual>
+
+    <!-- Water -->
+    <collision>
+      <origin xyz="0 0 0.55" />
+      <geometry>
+        <box size="0.4 0.7 0.1" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.55" />
+      <material name="water steel">
+        <color rgba="0.58 0.58 0.85 0.58" />
+      </material>
+      <geometry>
+        <box size="0.4 0.7 0.1" />
+      </geometry>
+    </visual>
+
+    <!-- Front top -->
+    <collision>
+      <origin xyz="-0.25 0 0.725" />
+      <geometry>
+        <box size="0.15 1.3 0.05" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.25 0 0.725" />
+      <material name="dark_marble">
+        <color rgba="0.125 0.1 0.075 1.0" />
+      </material>
+      <geometry>
+        <box size="0.15 1.3 0.05" />
+      </geometry>
+    </visual>
+    
+    <!-- Back top -->
+    <collision>
+      <origin xyz="0.25 0 0.725" />
+      <geometry>
+        <box size="0.15 1.3 0.05" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.25 0 0.725" />
+      <material name="dark_marble">
+        <color rgba="0.125 0.1 0.075 1.0" />
+      </material>
+      <geometry>
+        <box size="0.15 1.3 0.05" />
+      </geometry>
+    </visual>
+
+    <!-- Left top -->
+    <collision>
+      <origin xyz="0 -0.5 0.725" />
+      <geometry>
+        <box size="0.4 0.3 0.05" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 -0.5 0.725" />
+      <material name="dark_marble">
+        <color rgba="0.125 0.1 0.075 1.0" />
+      </material>
+      <geometry>
+        <box size="0.4 0.3 0.05" />
+      </geometry>
+    </visual>
+
+    <!-- Right top -->
+    <collision>
+      <origin xyz="0 0.5 0.725" />
+      <geometry>
+        <box size="0.4 0.3 0.05" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0.5 0.725" />
+      <material name="dark_marble">
+        <color rgba="0.125 0.1 0.075 1.0" />
+      </material>
+      <geometry>
+        <box size="0.4 0.3 0.05" />
+      </geometry>
+    </visual>
+
+    <!-- Tap vertical -->
+    <collision>
+      <origin xyz="0.25 0 0.85" />
+      <geometry>
+        <box size="0.02 0.02 0.2" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.25 0 0.85" />
+      <material name="steel">
+        <color rgba="0.68 0.68 0.68 1.0" />
+      </material>
+      <geometry>
+        <box size="0.02 0.02 0.2" />
+      </geometry>
+    </visual>
+
+    <!-- Tap horizontal -->
+    <collision>
+      <origin xyz="0.15 0 0.94" />
+      <geometry>
+        <box size="0.2 0.02 0.02" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.15 0 0.94" />
+      <material name="steel">
+        <color rgba="0.68 0.68 0.68 1.0" />
+      </material>
+      <geometry>
+        <box size="0.2 0.02 0.02" />
+      </geometry>
+    </visual>
+
+    <!-- Hot water -->
+    <collision>
+      <origin xyz="0.25 0.1 0.775" />
+      <geometry>
+        <cylinder radius="0.02" length="0.05" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.25 0.1 0.775" />
+      <material name="steel">
+        <color rgba="0.68 0.68 0.68 1.0" />
+      </material>
+      <geometry>
+        <cylinder radius="0.02" length="0.05" />
+      </geometry>
+    </visual>
+
+    <!-- Cold water -->
+    <collision>
+      <origin xyz="0.25 -0.1 0.775" />
+      <geometry>
+        <cylinder radius="0.02" length="0.05" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.25 -0.1 0.775" />
+      <material name="steel">
+        <color rgba="0.68 0.68 0.68 1.0" />
+      </material>
+      <geometry>
+        <cylinder radius="0.02" length="0.05" />
+      </geometry>
+    </visual>
+
+  </link>
+</robot>

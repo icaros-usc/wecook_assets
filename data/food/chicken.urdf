@@ -1,0 +1,23 @@
+<robot name="cooking_pot">
+    <link name="body">
+       	<visual>
+       	    <material name="pink meat">
+        		<color rgba="0.88 0.82 0.84 1.0" />
+      		</material>
+			<geometry>
+				<mesh filename="chicken.dae" scale="0.06 0.06 0.06" />
+			</geometry>
+			<origin rpy="1.57 0 0" xyz="0 0 0.015" />
+	    </visual>
+       	<collision>
+			<geometry>
+				<mesh filename="chicken.dae" scale="0.06 0.06 0.06" />
+			</geometry>
+			<origin rpy="1.57 0 0" xyz="0 0 0.015" />
+	    </collision>
+	    <inertial>
+			<mass value="10" />
+			<inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0" />
+	    </inertial>
+    </link>
+</robot>

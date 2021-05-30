@@ -1,0 +1,36 @@
+<robot name="kitchen_counter">
+  <link name="kitchen_counter">
+    <!-- Counter base -->
+    <collision>
+      <origin xyz="0 0 0.35" />
+      <geometry>
+        <box size="0.6 1.2 0.7" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.35" />
+      <material name="cardboard">
+        <color rgba="0.78 0.68 0.58 1.0" />
+      </material>
+      <geometry>
+        <box size="0.6 1.2 0.7" />
+      </geometry>
+    </visual>
+    <!-- Counter top -->
+    <collision>
+      <origin xyz="0 0 0.725" />
+      <geometry>
+        <box size="0.7 1.3 0.05" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.725" />
+      <material name="wood sunmica">
+        <color rgba="0.58 0.47 0.26 1.0" />
+      </material>
+      <geometry>
+        <box size="0.7 1.3 0.05" />
+      </geometry>
+    </visual>
+  </link>
+</robot>

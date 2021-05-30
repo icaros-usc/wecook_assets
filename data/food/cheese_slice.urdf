@@ -1,0 +1,19 @@
+<robot name="cheese_slice">
+  <link name="cheese_slice">
+    <collision>
+      <origin xyz="0.0 0.0 0.0015" />
+      <geometry>
+        <box size="0.075 0.075 0.003" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.0 0.0 0.0015" />
+      <material name="light yellow">
+        <color rgba="1. 0.9 0.6 1.0" />
+      </material>
+      <geometry>
+        <box size="0.075 0.075 0.003" />
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -9,7 +9,7 @@
     <visual>
       <origin xyz="0 0 1.0" />
       <material name="wall">
-        <color rgba="0.93 0.90 0.82 1.0" />
+        <color rgba="0.93 0.90 0.82 0.45" />
       </material>
       <geometry>
         <box size="0.2 3.0 2.0" />

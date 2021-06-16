@@ -3,13 +3,13 @@
     <collision>
       <origin rpy="1.57 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="toaster.stl" scale="0.003 0.003 0.003"/>
+        <mesh filename="toaster.stl" scale="0.00225 0.00225 0.00225"/>
       </geometry>
     </collision>
     <visual>
       <origin rpy="1.57 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="toaster.stl" scale="0.003 0.003 0.003"/>
+        <mesh filename="toaster.stl" scale="0.00225 0.00225 0.00225"/>
       </geometry>
       <material name="light grey">
         <color rgba="0.9 0.9 0.9 1.0" />

@@ -1,11 +1,13 @@
 <robot name="brush">
   <link name="brush">
     <collision>
+      <origin rpy="0 0 0" xyz="-0.01 -0.01 0.05"/>
       <geometry>
         <mesh filename="brush.stl" scale="0.009 0.009 0.009" />
       </geometry>
     </collision>
     <visual>
+      <origin rpy="0 0 0" xyz="-0.01 -0.01 0.05"/>
       <geometry>
         <mesh filename="brush.stl" scale="0.009 0.009 0.009" />
       </geometry>

@@ -1,9 +1,9 @@
 <robot name="lime">
   <link name="lime">
     <collision>
-      <origin rpy="0 0 0" xyz="-0.03 -0.03 0.005"/>
+      <origin rpy="0 0 0" xyz="-0.03 -0.03 0.006"/>
       <geometry>
-        <mesh filename="lime.stl" scale="0.0005 0.0005 0.0005" />
+        <mesh filename="lime.stl" scale="0.0007 0.0007 0.0007" />
       </geometry>
     </collision>
     <visual>
@@ -12,7 +12,7 @@
         <color rgba="0.65 0.60 0.10 1.0" />
       </material>
       <geometry>
-        <mesh filename="lime.dae" scale="0.0005 0.0005 0.0005" />
+        <mesh filename="lime.dae" scale="0.0007 0.0007 0.0007" />
       </geometry>
     </visual>
   </link>
